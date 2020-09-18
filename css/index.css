@@ -14,18 +14,10 @@
   src: url(../assets/font/LEMONMILK-Medium.otf);
 }
 
-#app {
-  margin: 0 auto;
-  background: url("../assets/images/home_agency.jpg") no-repeat;
-  background-size: cover;
-  height: 3100px;
-  }
-
 #app header {
   background: url("../assets/images/lion_banner.jpg") no-repeat;
   background-size: cover;
   height: 650px;
-  opacity: 0.5;
   }
 
 /*Logo on the left and bar to the right*/
