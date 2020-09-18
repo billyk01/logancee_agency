@@ -1,0 +1,77 @@
+
+@charset "utf-8";
+
+/**
+ * Reset
+ */
+@import "reset.css";
+
+/**
+ * Home
+ */
+@font-face {
+  font-family: font1;
+  src: url(../assets/font/LEMONMILK-Medium.otf);
+}
+
+/*#app {
+  margin: 0 auto;
+  background: url("../assets/images/home_agency.jpg") no-repeat;
+  background-size: cover;
+  height: 3100px;
+
+  }*/
+#app header {
+  background: url("../assets/images/lion_banner.jpg") no-repeat;
+  background-size: cover;
+  height: 650px;
+/*  opacity: 0.5;*/
+  }
+
+/*Logo on the left and bar to the right*/
+
+.header--logo {
+  height: 85px;
+}
+
+.header--logo h1 {
+  font-family: font1;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 30px 0px 0px 44px;
+  font-size: 19px;
+}
+/*Descritpion of the front page*/
+
+.header--description {
+  height: 480px;
+}
+
+.header--description span {
+  display: block;
+  font-family: font1;
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-size: 11px;
+  padding : 121px 0px 0px 247px;
+}
+
+.header--description-main {
+  font-family: font1;
+  color: #ffffff;
+  font-size: 45px;
+  padding: 46px 0px 0px 251px;
+}
+
+#style2-h2 {
+  letter-spacing: 3px;
+}
+
+.header--description p {
+  font-size: 5px;
+  color: #ffffff;
+  font-size: 13px;
+  width: 250px;  
+  color: #ffffff;
+  padding: 15px 10px 10px 249px;
+}
